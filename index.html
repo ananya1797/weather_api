@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-container">
+            <h1>What's the weather?</h1>
+            <label for="city"><p>Enter city name:</p></label>
+            <br>
+            <input type="text" id="city" name="city">
+            <br>
+            <br>
+            <button class="get">Get Weather</button>
+        </div>
+        <div class="box-container">
+            <div class="box" id="b1">
+                <h2>What's the temperature there like?</h2>
+                <p id="temperature">-</p>
+            </div>
+            <div class="box" id="b2">
+                <h2>How's the humidity up there like?</h2>
+                <p id="humidity">-</p>
+            </div>
+            <div class="box" id="b3">
+                <h2>How's the wind up there like?</h2>
+                <p id="wind">-</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
