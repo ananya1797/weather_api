@@ -1,2 +1,2 @@
-A simple frontend mini project using html css and js to fetch weather data using api
-using async await
+A weather application using HTML, CSS, and JavaScript. I utilized the async/await concept to fetch
+and display weather data from an API, ensuring smooth and efficient data retrieval.
